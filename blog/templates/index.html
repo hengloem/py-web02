@@ -2,7 +2,7 @@
 {% for row in posts %}
 
     <div>
-        <h3> {{ row.title }} </h3> <br>
+        <h3><a href="/post/{{ row.slug }}">{{ row.title }}</a>  </h3> <br>
         <p>{{ row.summary }}</p>
         <p>{{ row.content }}</p>
     </div>
