@@ -1,1 +1,10 @@
-<h1>Heng handsome man!</h1>
+
+{% for row in posts %}
+
+    <div>
+        <h3> {{ row.title }} </h3> <br>
+        <p>{{ row.summary }}</p>
+        <p>{{ row.content }}</p>
+    </div>
+
+{% endfor %}
