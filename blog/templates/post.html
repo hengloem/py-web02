@@ -2,8 +2,12 @@
 {% block title %}Web02: {{ post.title }}{% endblock %}
 
 {% block entry %}
-    <h2>{{ post.title }}</h2>
-    <div>
-        {{ post.content|linebreaks }}
+    <div class="starter-template">
+<!--        <img src="{{ post.image.url }}" alt="{{ post.title }}">-->
+        <h2>{{ post.title }}</h2>
+        <div>
+            {{ post.content|linebreaks }}
+        </div>
     </div>
+
 {% endblock %}

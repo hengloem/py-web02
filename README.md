@@ -13,7 +13,7 @@ This project originally from [Udemy.com](https://www.udemy.com) course by [Nick 
 
 ## Authors
 
-* **Heng Loem** - *Contributor* - [heng.loem2017@gmail.com]
+* **Heng Loem** - *Contributor* - <heng.loem2017@gmail.com>
 
 ## License
 
