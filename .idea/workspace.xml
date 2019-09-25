@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e1a3d5-581e-4d9c-b0b8-4d7edf44ddc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/img/ubuntu_os_lines_abstract_orange_gray_30924_1920x1080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/future_technology1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/Pokémon-1920-1080.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/success-1920-1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/placeholder.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
