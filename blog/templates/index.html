@@ -1,19 +1,11 @@
-{# Load the tag library #}
-{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+{% extends 'base.html' %}
+{% block content %}
 
-{% load bootstrap4 %}
-
-{# Load CSS and JavaScript #}
-{% bootstrap_css %}
-{% bootstrap_javascript jquery='full' %}
-
-{% for row in posts %}
-
-    <div>
-        <h3><a href="/post/{{ row.slug }}">{{ row.title }}</a>  </h3> <br>
-        <p>{{ row.summary }}</p>
-        <p>{{ row.content }}</p>
-    </div>
-
-{% endfor %}
+    {% for row in posts %}
+        <div>
+            <h3><a href="/post/{{ row.slug }}">{{ row.title }}</a>  </h3> <br>
+            <p>{{ row.summary }}</p>
+            <p>{{ row.content }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}

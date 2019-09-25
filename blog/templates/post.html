@@ -1,7 +1,13 @@
-<a href="/"><- Back to index</a>
+{% extends 'base.html' %}
+{% block title %}Web02: {{ post.title }}{% endblock %}
+{% block content %}
 
-<h2>{{ post.title }}</h2>
+    <a href="/"><- Back to index</a>
 
-<div>
-    {{ post.content }}
-</div>
+    <h2>{{ post.title }}</h2>
+
+    <div>
+        {{ post.content }}
+    </div>
+
+{% endblock %}
